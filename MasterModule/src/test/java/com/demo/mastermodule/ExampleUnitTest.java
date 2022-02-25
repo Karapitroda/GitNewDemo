@@ -1,4 +1,4 @@
-package com.calldibs.mastermodule;
+package com.demo.mastermodule;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.calldibs.gitnewdemo;
+package com.demo.gitnewdemo;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.calldibs.gitnewdemo;
+package com.demo.mastermodule;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.calldibs.gitnewdemo", appContext.getPackageName());
+        assertEquals("com.calldibs.mastermodule.test", appContext.getPackageName());
     }
 }
