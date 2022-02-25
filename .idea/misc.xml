@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Android Projects/Project/Nimit shah/GitNewDemo/MasterModule/src/main/res/drawable/ic_back_vector.xml" value="0.2169230769230769" />
         <entry key="..\:/Android Projects/Project/Nimit shah/GitNewDemo/MasterModule/src/main/res/drawable/ic_cam.xml" value="0.2169230769230769" />
         <entry key="..\:/Android Projects/Project/Nimit shah/GitNewDemo/MasterModule/src/main/res/drawable/ic_date_dropdown_arrow.xml" value="0.2169230769230769" />
         <entry key="..\:/Android Projects/Project/Nimit shah/GitNewDemo/MasterModule/src/main/res/drawable/ic_menu_animated.xml" value="0.2169230769230769" />
@@ -12,6 +13,7 @@
         <entry key="..\:/Android Projects/Project/Nimit shah/GitNewDemo/MasterModule/src/main/res/drawable/otp_border_fill.xml" value="0.2169230769230769" />
         <entry key="..\:/Android Projects/Project/Nimit shah/GitNewDemo/MasterModule/src/main/res/layout/activity_login.xml" value="0.19010416666666666" />
         <entry key="..\:/Android Projects/Project/Nimit shah/GitNewDemo/MasterModule/src/main/res/layout/activity_splash.xml" value="0.19010416666666666" />
+        <entry key="..\:/Android Projects/Project/Nimit shah/GitNewDemo/app/src/main/res/layout/activity_main.xml" value="0.18518518518518517" />
       </map>
     </option>
   </component>
