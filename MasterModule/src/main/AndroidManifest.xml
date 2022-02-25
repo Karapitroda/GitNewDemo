@@ -4,7 +4,10 @@
 
     <application>
         <activity
-            android:name="com.demo.mastermodule.SplashActivity"
+            android:name=".LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashActivity"
             android:exported="true" />
     </application>
 

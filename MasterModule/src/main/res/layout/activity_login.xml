@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:orientation="vertical"
+        tools:context=".views.activity.LoginActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/login_bg">
+
+            <androidx.appcompat.widget.LinearLayoutCompat
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:orientation="vertical">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_50sdp" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_login_logo" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bevietnam_bold"
+                    android:text="@string/login"
+                    android:textColor="@color/txtColor_1E3C1E"
+                    android:textSize="30sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_15sdp" />
+
+                <com.demo.mastermodule.NoChangingBackgroundTextInputLayout
+                    android:id="@+id/ipEmail"
+                    style="@style/Widget.Design.TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundMode="none"
+                    app:errorEnabled="false"
+                    app:errorTextAppearance="@style/error_appearance"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edt_email"
+                        style="@style/EditTextTheme"
+                        android:drawableLeft="@drawable/ic_mail"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="@string/email"
+                        android:inputType="textEmailAddress"
+                        android:letterSpacing="0.05" />
+
+                </com.demo.mastermodule.NoChangingBackgroundTextInputLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_15sdp" />
+
+                <com.demo.mastermodule.NoChangingBackgroundTextInputLayout
+                    android:id="@+id/ipPassword"
+                    style="@style/Widget.Design.TextInputLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundMode="none"
+                    app:errorEnabled="false"
+                    app:errorTextAppearance="@style/error_appearance"
+                    app:hintEnabled="false">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/edtPassword"
+                        style="@style/EditTextTheme"
+                        android:drawableLeft="@drawable/ic_key"
+                        android:drawablePadding="@dimen/_10sdp"
+                        android:hint="@string/password"
+                        android:imeOptions="actionDone"
+                        android:inputType="textPassword"
+                        android:letterSpacing="0.05" />
+
+                </com.demo.mastermodule.NoChangingBackgroundTextInputLayout>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_5sdp" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtForgot"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:fontFamily="@font/bevietnam_bold"
+                    android:gravity="center_vertical"
+                    android:text="@string/forgot_password"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_15sdp" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:background="@drawable/rounded_white"
+                    android:text="@string/login"
+                    android:gravity="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/txtColor_1E3C1E" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_30sdp" />
+
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bevietnam_regular"
+                    android:gravity="center_vertical"
+                    android:text="@string/or_login_with"
+                    android:textColor="@color/txtColor_1E3C1E"
+                    android:textSize="14sp" />
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_20sdp" />
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_42sdp"
+                        android:layout_height="@dimen/_42sdp"
+                        android:background="@drawable/circle_blue"
+                        android:padding="@dimen/_10sdp"
+                        android:src="@drawable/ic_facebook" />
+
+                    <ImageView
+                        android:layout_width="@dimen/_42sdp"
+                        android:layout_height="@dimen/_42sdp"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:background="@drawable/circle_orange"
+                        android:padding="@dimen/_10sdp"
+                        android:src="@drawable/ic_google" />
+
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:id="@+id/txtSignup"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/bevietnam_regular"
+                    android:gravity="center"
+                    android:text="@string/dont_have_account"
+                    android:textColor="@color/txtColor_1E3C1E"
+                    android:textSize="14sp" />
+            </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
